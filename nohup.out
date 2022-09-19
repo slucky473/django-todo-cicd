@@ -1,0 +1,26 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+September 19, 2022 - 17:34:50
+Django version 3.2.15, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[19/Sep/2022 17:34:59] "GET /todos/ HTTP/1.1" 200 3515
+[19/Sep/2022 17:34:59] "GET /static/css/style.css HTTP/1.1" 304 0
+[19/Sep/2022 17:35:01] "GET /todos/ HTTP/1.1" 200 3515
+[19/Sep/2022 17:35:13] "GET /todos/ HTTP/1.1" 200 3515
+[19/Sep/2022 17:44:58] code 400, message Bad request syntax ('MGLNDD_34.142.232.62_8000')
+[19/Sep/2022 17:44:58] "MGLNDD_34.142.232.62_8000" 400 -
+[19/Sep/2022 17:51:31] "GET /todos/ HTTP/1.1" 200 3515
+[19/Sep/2022 17:51:31] "GET /static/css/style.css HTTP/1.1" 304 0
+[19/Sep/2022 17:56:23] "GET /todos/ HTTP/1.1" 200 3515
+[19/Sep/2022 17:56:23] "GET /static/css/style.css HTTP/1.1" 304 0
+[19/Sep/2022 18:01:04] "GET /todos/ HTTP/1.1" 200 3515
+[19/Sep/2022 18:01:04] "GET /static/css/style.css HTTP/1.1" 304 0
